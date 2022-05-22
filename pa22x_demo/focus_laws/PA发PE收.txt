@@ -1,0 +1,27 @@
+
+# 设置常规参数：与相控阵同时触发，双模式（不接发射探头，只接接收探头）
+set dev_select 20
+set dev_active true
+set ch_select 1
+set range 100
+set dual_mode true
+set trig_mode sync_pa
+set gain 58
+
+# 当前设备切换回相控阵设备,设置相控阵发射参数：线扫，16孔径，单条声束
+set dev_select 1
+set scan_type lscan
+set dgain 28
+set again 24
+set range 100
+set prf 500
+set high_voltage 45
+set pulse_width 125
+set probe 4.0 16 1.0 0
+set wedge disable s 36 2337 12.5
+set aperture 1 15
+set angle 0
+set focus 30
+set scan_rule
+update_image
+

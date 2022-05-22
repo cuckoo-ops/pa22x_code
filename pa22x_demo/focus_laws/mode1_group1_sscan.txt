@@ -1,0 +1,24 @@
+set open_dev
+set dev_select 0
+set group_mode 1
+
+set prf 4000
+set high_voltage 45
+set pulse_width 125
+
+set group_select 1
+set data_stop
+set scan_type sscan
+set probe 4 16 1.0 0
+set wedge enable s 36 2337 12.5
+set velocity 5900 3230
+set range 80
+set again 26
+set dgain 12
+set aperture 1 16
+set angle 35 75
+set focus 50
+set scan_rule
+set data_start
+
+set data_start

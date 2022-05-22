@@ -1,0 +1,16 @@
+set scan_type lscan
+set dgain 55
+set again 32
+set range 100
+set prf 500
+set high_voltage 75
+set pulse_width 125
+set probe 4 64 1.0 0
+set velocity 5900 3230
+set wedge disable s 36 2337 12.5
+set aperture 1 1
+set lscan_ele 1 64
+set angle 0 0
+set focus 100
+set scan_rule
+update_image

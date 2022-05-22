@@ -1,0 +1,14 @@
+# 切换到常规设备，设置第1通道和第2通道的参数。
+set dev_select 20
+set dev_active true
+set ch_select 0
+set range 360
+set again 89
+set ch_select 1
+set range 210
+set again 95
+
+# 切换回相控阵设备，设置增益。
+set dev_select 1
+set again 28
+set dgain 28

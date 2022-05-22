@@ -1,0 +1,25 @@
+# 切换到常规设备（设备号为20）
+set dev_select 20
+
+# 激活设备
+set dev_active true
+
+# 设置共用参数，这些参数是两个通道共用的
+set high_voltage 250
+set prf 500
+
+# 切换到通道1，设置收发参数
+set ch_select 1
+set range 200
+set gain 32
+set pulse_width 200
+set filter 1
+
+# 切换到通道2，设置收发参数
+set ch_select 2
+set range 100
+set gain 36
+set pulse_width 100
+set filter 2
+set gate_ctl a peek false
+

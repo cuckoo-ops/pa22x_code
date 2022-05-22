@@ -1,0 +1,25 @@
+set open_dev
+set dev_select 0
+set group_mode 2
+
+set group_select 1
+set data_stop
+set prf 2200
+set high_voltage 45
+set pulse_width 125
+
+set scan_type lscan
+set probe 4 128 0.6 0
+set wedge disable s 36 2337 12.5
+set velocity 5900 3230
+set range 80
+set again 32
+set dgain 18
+set aperture 1 8
+set lscan_ele 1 128
+set angle 0
+set focus 40
+set scan_rule
+
+set data_start
+
